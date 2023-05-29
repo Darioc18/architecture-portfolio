@@ -23,18 +23,46 @@ header {
     cursor: pointer;
 }
 
+/* .section {
+    position: relative;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s;
+} */
+
 .hero {
     background-image: url('../images/house-gl_interior.jpg');
     background-position: center;
     min-height: 1200px;
     height: 100%;
+    opacity: 1;
+    transition: opacity 1s;
 }
+
+/* Hide checkbox square */
+
+#menu-checkbox {
+    display: none;
+}
+
+/* Hide menu content by default */
 
 #menu {
     position: fixed;
     top: 60px;
     left: 20px;
     z-index: 2;
+}
+
+/* Show hidden menu when the checkbox is checked */
+
+#menu-checkbox:checked~.hero {
+    opacity: 0;
+    background-color: white;
+}
+
+#menu-checkbox:checked~#menu {
+    opacity: 1;
 }
 
 #menu ul {
