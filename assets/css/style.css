@@ -114,6 +114,20 @@ section#projects {
     width: 100%;
     margin-top: 50px;
     margin-left: 150px;
+    /* Initially hide the container */
+    opacity: 0;
+    /* Apply fade-in animation */
+    animation: fade-in 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .box {
