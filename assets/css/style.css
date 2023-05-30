@@ -54,7 +54,6 @@ header {
     left: 20px;
     z-index: 2;
     opacity: 0;
-    transition: opacity 0.5s;
 }
 
 /* Show hidden menu when the checkbox is checked */
