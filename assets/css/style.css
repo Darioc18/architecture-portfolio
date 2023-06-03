@@ -106,7 +106,7 @@ section#projects {
     padding-right: 100px;
 }
 
-.container {
+.container-architecture {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -147,3 +147,30 @@ img {
 }
 
 /* Styling info.html */
+
+.container-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 100%;
+    /* Initially hide the container */
+    opacity: 0;
+    /* Apply fade-in animation */
+    animation: fade-in 1s ease-out forwards;
+}
+
+.personal-image {
+    flex: 1;
+    max-width: 400px;
+    min-width: 400px;
+    margin: 40px;
+}
+
+.info-text {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+}
