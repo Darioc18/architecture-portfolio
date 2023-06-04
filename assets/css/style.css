@@ -195,3 +195,34 @@ img {
     margin-top: 40px;
 }
 
+/* Styling P2 p-entrance-hall.html */
+
+.p-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gallery {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery img {
+    width: 500px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.description {
+    position: fixed;
+    top: 90px;
+    right: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    width: 500px;
+    height: 200px;
+}
+
