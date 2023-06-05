@@ -173,6 +173,10 @@ img {
     opacity: 1
 }
 
+.image-name p {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 920px) {
 
     .container-architecture {
@@ -181,6 +185,20 @@ img {
 
 }
 
+@media screen and (max-width: 550px) {
+
+    .container-architecture {
+        margin-top: 120px;
+        padding-left: 0px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        margin: 40px 20px;
+    }
+
+}
 
 /* Styling info.html */
 
