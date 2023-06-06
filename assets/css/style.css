@@ -218,7 +218,7 @@ a:active {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-left: 150px;
+    padding-left: 230px;
     width: 100%;
     /* Initially hide the container */
     opacity: 0;
@@ -226,19 +226,39 @@ a:active {
     animation: fade-in 1s ease-out forwards;
 }
 
-.personal-image {
-    max-width: 400px;
+#personal-image {
+    width: 400px;
     min-width: 400px;
+    height: auto;
     margin: 40px;
 }
 
-.info-text {
-    width: 100%;
-    max-width: 400px;
+#info-text {
+    width: 400px;
+    min-width: 400px;
     margin-top: 40px;
+    text-align: justify;
 }
 
-/* Styling P2 p-entrance-hall.html */
+@media screen and (max-width: 550px) {
+
+    .container-info {
+        margin-top: 120px;
+        padding-left: 0px;
+        height: auto;
+    }
+
+    #personal-image,
+    #info-text {
+        width: 100%;
+        min-width: 100px;
+        height: auto;
+        margin: 40px 20px;
+    }
+
+}
+
+/* Styling project p-entrance-hall.html */
 
 .p-container {
     display: flex;
@@ -279,9 +299,12 @@ a:active {
     margin: 0 20px
 }
 
-.small-color-text {
-    color: #383838;
+.small-text {
     font-size: 80%;
+}
+
+.color-text {
+    color: #545454;
 }
 
 @media screen and (max-width: 1450px) {
