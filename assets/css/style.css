@@ -40,7 +40,7 @@ label {
     background-color: transparent;
 }
 
-
+#name-home,
 #name {
     font-size: 180%;
     color: black;
@@ -64,14 +64,14 @@ label {
 
 /* Hide checkbox square */
 
-
+#menu-checkbox-home,
 #menu-checkbox {
     display: none;
 }
 
 /* Hide menu content by default */
 
-
+#menu-home,
 #menu {
     position: fixed;
     top: 60px;
@@ -85,13 +85,13 @@ label {
 
 /* Show hidden menu when the checkbox is checked */
 
-
+#menu-checkbox-home:checked~.hero,
 #menu-checkbox:checked~.hero {
     opacity: 0;
     background-color: white;
 }
 
-
+#menu-checkbox-home:checked~#menu-home,
 #menu-checkbox:checked~#menu {
     opacity: 1;
 }
