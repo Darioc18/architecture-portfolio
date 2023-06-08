@@ -128,7 +128,6 @@ a:hover {
 } */
 
 #projects {
-    overflow-y: scroll;
     height: 100%;
 }
 
@@ -184,7 +183,7 @@ img {
 }
 
 .image-name:hover {
-    opacity: 1
+    opacity: 1;
 }
 
 .image-name p {
