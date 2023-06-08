@@ -10,14 +10,15 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     color: black;
+    letter-spacing: 1px;
 }
 
-body.home-page,
+/* body.home-page,
 body.architecture-page {
     margin: 0;
     padding: 0;
     height: 100%;
-}
+} */
 
 body.home-page {
     overflow: hidden;
@@ -45,7 +46,7 @@ header {
     cursor: pointer;
 }
 
-/* .section {
+/* .main {
     position: relative;
     height: 100%;
     background-color: transparent;
@@ -53,19 +54,15 @@ header {
 } */
 
 .hero {
-    background-image: url('../images/house-gl_interior.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 1071px;
-    height: 100%;
+    object-fit: cover;
+    height: 100vh;
     opacity: 1;
     transition: opacity 1s;
 }
 
 /* Hide checkbox square */
 
-#menu-checkbox,
-#menu-checkbox-architecture {
+#menu-checkbox {
     display: none;
 }
 
@@ -348,6 +345,10 @@ img {
         height: auto;
         margin-top: 40px;
     }
+}
+
+a[id="back-button"] {
+    color: #545454;
 }
 
 a[id="back-button"]:hover {
