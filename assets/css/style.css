@@ -78,9 +78,12 @@ label {
     left: 0;
     padding-left: 20px;
     z-index: 2;
-    opacity: 0;
+    visibility: hidden;
     background-color: transparent;
     width: 100%;
+    opacity: 0;
+    transition: opacity 1s linear;
+    appearance: vi;
 }
 
 /* Show hidden menu when the checkbox is checked */
@@ -94,6 +97,7 @@ label {
 #menu-checkbox-home:checked~#menu-home,
 #menu-checkbox:checked~#menu {
     opacity: 1;
+    visibility: visible;
 }
 
 
@@ -103,15 +107,18 @@ ul {
 
 li a {
     color: black;
-    font-size: 18px;
+    font-size: 120%;
+    line-height: 25px;
+}
+
+li a:hover {
+    opacity: 0.4;
 }
 
 a,
-a:visited,
-a:hover,
-a:active {
-    color: black;
+a:hover {
     text-decoration: none;
+    color: black;
 }
 
 /* Styling architecture.html */
@@ -257,7 +264,7 @@ img {
 
 }
 
-/* Styling project p-entrance-hall.html */
+/* Styling single projects htmls */
 
 .p-container {
     display: flex;
@@ -330,6 +337,7 @@ img {
 
     #menu {
         background-color: white;
+        padding: 10px;
     }
 
     .p-container {
@@ -358,5 +366,5 @@ a[id="back-button"] {
 }
 
 a[id="back-button"]:hover {
-    opacity: 0.3;
+    opacity: 0.4;
 }
