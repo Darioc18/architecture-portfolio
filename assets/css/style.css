@@ -196,6 +196,7 @@ img {
 
     .container-architecture {
         padding-left: 40px;
+        margin-top: 140px;
     }
 
 }
@@ -203,7 +204,7 @@ img {
 @media screen and (max-width: 550px) {
 
     .container-architecture {
-        margin-top: 120px;
+        margin-top: 140px;
         padding-left: 0px;
     }
 
@@ -248,7 +249,7 @@ img {
 @media screen and (max-width: 550px) {
 
     .container-info {
-        margin-top: 120px;
+        margin-top: 140px;
         padding-left: 0px;
         height: auto;
     }
@@ -349,7 +350,7 @@ img {
 
     .description {
         position: static;
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
     .gallery img {
