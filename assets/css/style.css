@@ -400,6 +400,7 @@ a[id="back-button"]:hover {
 
 .form-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -413,9 +414,7 @@ a[id="back-button"]:hover {
 
 .contact-form label {
     text-transform: uppercase;
-    font-size: 80%;
     font-weight: 600;
-    color: #545454;
 }
 
 .contact-form h2 {
@@ -469,4 +468,24 @@ a[id="back-button"]:hover {
 .send-button:hover {
     opacity: 0.4;
     cursor: pointer;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    line-height: 25px;
+    padding: 20px 20px 0 20px;
+}
+
+.social a {
+    opacity: 1;
+    transition: opacity 0.3s;
+    color: #545454;
+    text-transform: uppercase;
+    font-size: 200%
+}
+
+.social a:hover {
+    opacity: 0.4;
 }
