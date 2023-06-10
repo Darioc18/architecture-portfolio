@@ -140,12 +140,16 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 90px;
     padding-left: 230px;
     /* Initially hide the container */
     opacity: 0;
     /* Apply fade-in animation */
     animation: fade-in 1s ease-out forwards;
+}
+
+.container-architecture img {
+    object-fit: cover;
 }
 
 @keyframes fade-in {
@@ -162,7 +166,7 @@ a:hover {
     width: 400px;
     height: 400px;
     background-color: #f2f2f2;
-    margin: 40px 40px 40px 0;
+    margin: 0px 60px 60px 0;
     position: relative;
 }
 
