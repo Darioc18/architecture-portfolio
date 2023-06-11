@@ -312,7 +312,7 @@ img {
 .gallery img {
     width: 500px;
     height: auto;
-    margin: 20px 0;
+    margin: 20px 0 40px 0;
 }
 
 /* .gallery img:first-of-type {
