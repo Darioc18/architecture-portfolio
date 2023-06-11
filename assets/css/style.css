@@ -152,16 +152,6 @@ a:hover {
     object-fit: cover;
 }
 
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 .box {
     width: 400px;
     height: 400px;
@@ -199,29 +189,7 @@ img {
     font-weight: 800;
 }
 
-@media screen and (max-width: 920px) {
 
-    .container-architecture {
-        padding-left: 40px;
-        margin-top: 140px;
-    }
-
-}
-
-@media screen and (max-width: 550px) {
-
-    .container-architecture {
-        margin-top: 140px;
-        padding-left: 0px;
-    }
-
-    .box {
-        width: 100%;
-        height: auto;
-        margin: 40px 20px;
-    }
-
-}
 
 /* Styling info.html */
 
@@ -255,42 +223,6 @@ img {
 
 #text-cv {
     text-align: left;
-}
-
-@media screen and (max-width: 1500px) {
-
-    .container-info {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #personal-image,
-    #info-text {
-        width: 400px;
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-
-    .container-info {
-        margin-top: 90px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-
-    .container-info {
-        margin-top: 180px;
-        padding: 0 40px;
-    }
-
-    #personal-image,
-    #info-text {
-        width: 100%;
-        height: auto;
-    }
-
 }
 
 /* Styling single projects htmls */
@@ -350,54 +282,6 @@ img {
     text-decoration: underline;
     text-decoration-thickness: 1.2px;
     text-decoration-color: #545454;
-}
-
-@media screen and (max-width: 1700px) {
-    .p-container {
-        flex-direction: column-reverse;
-    }
-
-    .gallery {
-        margin: 0 20px 20px;
-    }
-
-    .description {
-        position: static;
-        margin-top: 50px;
-    }
-}
-
-@media screen and (max-width: 920px) {
-
-    label[id="name"] {
-        background-color: white;
-        height: 60px;
-    }
-
-    #menu {
-        background-color: white;
-        padding: 0 10px 10px 20px;
-    }
-
-    .p-container {
-        flex-direction: column-reverse;
-    }
-
-    .gallery {
-        margin: 0 20px 20px;
-    }
-
-    .description {
-        position: static;
-        margin-top: 140px;
-    }
-
-    .gallery img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        margin-top: 40px;
-    }
 }
 
 a[id="back-button"] {
@@ -503,4 +387,130 @@ a[id="back-button"]:hover {
 
 .social a:hover {
     opacity: 0.4;
+}
+
+/* keyframes */
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* media queries for architecture.html */
+
+@media screen and (max-width: 920px) {
+
+    .container-architecture {
+        padding-left: 40px;
+        margin-top: 140px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .container-architecture {
+        margin-top: 140px;
+        padding-left: 0px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        margin: 40px 20px;
+    }
+
+}
+
+/* media queries for info.html */
+
+@media screen and (max-width: 1500px) {
+
+    .container-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #personal-image,
+    #info-text {
+        width: 400px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .container-info {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .container-info {
+        margin-top: 180px;
+        padding: 0 40px;
+    }
+
+    #personal-image,
+    #info-text {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* media queries for individual project pages */
+
+@media screen and (max-width: 1700px) {
+    .p-container {
+        flex-direction: column-reverse;
+    }
+
+    .gallery {
+        margin: 0 20px 20px;
+    }
+
+    .description {
+        position: static;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    label[id="name"] {
+        background-color: white;
+        height: 60px;
+    }
+
+    #menu {
+        background-color: white;
+        padding: 0 10px 10px 20px;
+    }
+
+    .p-container {
+        flex-direction: column-reverse;
+    }
+
+    .gallery {
+        margin: 0 20px 20px;
+    }
+
+    .description {
+        position: static;
+        margin-top: 140px;
+    }
+
+    .gallery img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-top: 40px;
+    }
 }
