@@ -346,6 +346,12 @@ img {
     text-align: left;
 }
 
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #545454;
+}
+
 @media screen and (max-width: 1700px) {
     .p-container {
         flex-direction: column-reverse;
