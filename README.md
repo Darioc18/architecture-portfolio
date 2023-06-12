@@ -79,6 +79,8 @@ As the central focus of the website, Dario's personal portfolio will prominently
 
 For the home page, I selected a visually pleasing image with neutral and clear colors to align with the minimalistic character of the entire website. The arrangement of the images will be thoughtfully organized to showcase a variety of projects effectively, allowing visitors to explore and appreciate Dario's diverse body of work.
 
+The images within the portfolio were created utilizing a diverse range of architectural and design software.
+
 ## Features
 
 ### Existing Features
@@ -123,7 +125,7 @@ For the home page, I selected a visually pleasing image with neutral and clear c
 
     ![info page mobile](assets/images/readme-files/info-page-mobile.jpg)
 
-- ### Contact Page
+- #### Contact Page
 
   - The contact page provides users with the ability to easily get in touch with the artist for various purposes, such as project inquiries or sharing opinions about previous work.
   - All fields in the contact form are set as required. This means that the form cannot be submitted unless all necessary information, including names, message and valid email addresses, are provided.
@@ -134,3 +136,72 @@ For the home page, I selected a visually pleasing image with neutral and clear c
 
 - Expand the _architecture_ page: add more projects to showcase a wider range of the designer's work.
 - Individual project pages with navigation arrows: implement the feature depicted in the [Wireframes](#wireframes), allowing users to navigate between individual project pages using arrows. These arrows should be placed in a way that allows users to easily move to the next or previous project. Additionally, consider including a small preview of the upcoming or previous project above the arrows, providing a glimpse of what's to come.
+
+## Testing
+
+Testing has been conducted on multiple browsers, including Chrome, Firefox, and Edge, ensuring that the website appears and functions as intended in each of them. Additionally, the responsive design has been tested using the developer tools option, ensuring that the website dynamically adjusts and adapts across various screen sizes. Furthermore, to guarantee a consistent user experience, the website has been tested on a mobile device.
+
+- ### Validator testing
+
+  Each page has been run through the W3C Markup validation service and CSS validation service **to be completed!!!**
+
+- ### Performance
+
+  Google Lighthouse in Google's Chrome Developer Tools was used to test the performance of the website. All elements performed well.
+
+- ### Accessibility
+
+  Throughout the coding process of this website, great attention has been given to making it as accessible-friendly as possible. This has been achieved by implementing the following measures:
+
+  - Using semantic HTML: By utilizing semantic HTML elements, such as `<header>`, `<nav>`, `<main>`, and others, the structure and purpose of the content are accurately conveyed. This improves the website's accessibility for screen readers and assistive technologies.
+
+  - Providing alt attributes for every picture: By including descriptive alt attributes for all images on the website, users with visual impairments can understand the content and context of the images through screen readers or alternative text presentations.
+
+  - Adding aria-label to anchor elements: The use of aria-label attributes for link and icons enhances accessibility by providing additional information or descriptions that are not explicitly conveyed through visual elements alone. This enables users who rely on assistive technologies to comprehend and navigate the website effectively.
+
+  By incorporating these practices, the website ensures that users with disabilities or impairments can access and engage with the content in an inclusive and meaningful way.
+
+## Technologies Used
+
+- Languages
+  - HTML
+  - CSS
+- Frameworks and Porgrams
+  - Git
+  - Github
+  - Codeanywhere
+  - Google Dev Tools
+  - Google Lighthouse
+  - Google Fonts
+  - Font Awesome
+  - Balsamiq
+  - Am I Responsive?
+  - W3C Markup Validation Service
+  - W3C CSS Validation Service
+
+## Deployment
+
+The website was successfully deployed using GitHub. To deploy the website, I followed these steps:
+
+- Go to the GitHub repository and navigate to the _Settings_ tab;
+- On the left-hand menu, select _Pages_;
+- In the _Source_ section, choose the branch _main_;
+- Click _Save_ to save the changes;
+- After saving, the web page will automatically refresh. Once refreshed, a ribbon at the top of the page appears stating: _Your site is live at <https://darioc18.github.io/architecture-portfolio/>_
+
+## Credits
+
+- Content
+
+  - Instructions on how to implement the checkbox method used for the home page were taken from: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked).
+
+  - Instructions on how to use flexbox method were taken from a youtube tutorial and a game proposed by my cohort facilitator Alan Bushelland:
+    [Youtube tutorial](https://www.youtube.com/watch?v=SgmNxE9lWcY&t=458s),
+    [Flexbox Froggy](https://flexboxfroggy.com/).
+
+- Media
+  - All media are part of projects I've personally worked on.
+
+## Aknowledgments
+
+I would like to express my gratitude to my Code Institute mentor, Aleksei Konovalov, for his guidance and clear advice throughout the project. His advice and encouragement have been instrumental in refining and improving the project, and I am extremely pleased with the final outcome.
