@@ -28,7 +28,7 @@
   - [Features left to implement](#features-left-to-implement)
 - [Testing](#testing)
   - [Validator testing](#validator-testing)
-  - [Performance](#performance)
+  - [Performance **to be completed!!!**](#performance-to-be-completed)
   - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
@@ -173,9 +173,14 @@ Testing has been conducted on multiple browsers, including Chrome, Firefox, and 
 
 ### Validator testing
 
-Each page has been run through the W3C Markup validation service and CSS validation service **to be completed!!!**
+Each page has been run through the W3C Markup validation service and CSS validation service:
 
-### Performance
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F)
+- CSS
+  - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Performance **to be completed!!!**
 
 Google Lighthouse in Google's Chrome Developer Tools was used to test the performance of the website. All elements performed well.
 
