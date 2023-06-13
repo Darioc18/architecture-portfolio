@@ -28,6 +28,7 @@
   - [Features left to implement](#features-left-to-implement)
 - [Testing](#testing)
   - [Validator testing](#validator-testing)
+  - [Bugs](#bugs)
   - [Performance **to be completed!!!**](#performance-to-be-completed)
   - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
@@ -180,6 +181,20 @@ Each page has been run through the W3C Markup validation service and CSS validat
 - CSS
   - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Bugs
+
+- I encountered an issue where the picture and text on the page were not appearing centered. After inspecting the CSS code, I identified that a `padding-left` property of `230px` and an `align-items` property set to `flex-start` were causing this misalignment.
+
+  _To address the problem, I removed the `padding-left` property and updated the `align-items` property to `center`. The picture and text now appear centered on the page as intended (see commit 4f68e07 Jun 9, 2023)._
+
+- By clicking on the text area, I noticed that the blinking text cursor was initially appearing in the middle of the textarea instead of at the beginning.
+
+  _To address this issue, I removed the space between the textarea tags. I discovered this solution by consulting [Stack Overflow](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)._
+
+- The textarea in the contact form was causing layout issues due to its resizable feature.
+
+  _To fix this problem, I implemented the CSS property "resize:none" to disable the textarea's resizing capability. This adjustment ensures that the textarea remains fixed in size and prevents any layout disturbances. I found this solution on [Stack Overflow](https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea)._
+
 ### Performance **to be completed!!!**
 
 Google Lighthouse in Google's Chrome Developer Tools was used to test the performance of the website. All elements performed well.
@@ -229,13 +244,13 @@ The website was successfully deployed using GitHub. To deploy the website, I fol
 - Content
 
   - Instructions on how to implement the checkbox method used for the home page were taken from: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked).
-
   - Instructions on how to use flexbox method were taken from a youtube tutorial and a game proposed by my cohort facilitator Alan Bushelland:
     [Youtube tutorial](https://www.youtube.com/watch?v=SgmNxE9lWcY&t=458s),
     [Flexbox Froggy](https://flexboxfroggy.com/).
+  - Instructions and solutions to address bugs mentioned in the [Bugs](#bugs) section were solved by consulting [Stack Overflow](https://stackoverflow.com/)
 
 - Media
-  - All media are part of projects I've personally worked on.
+  - All media included in the website are part of architectural projects that I have personally worked on.
 
 ## Aknowledgments
 
