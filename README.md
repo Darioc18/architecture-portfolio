@@ -1,22 +1,43 @@
-# Portfolio Project 1 - HTML/CSS Essentials
+# Portfolio Project 1 - HTML/CSS Essentials <!-- omit in toc -->
 
-## DC Architecture Portfolio
+## DC Architecture Portfolio <!-- omit in toc -->
 
 ![Responsive Mockup](assets/images/readme-files/multi-device.jpg)
 
-## Live Site
+## Live Site <!-- omit in toc -->
 
 [Dario Covella - Architecture Portfolio](https://darioc18.github.io/architecture-portfolio/architecture.html)
 
-## Repository
+## Repository <!-- omit in toc -->
 
 [https://github.com/Darioc18/architecture-portfolio](https://github.com/Darioc18/architecture-portfolio)
 
+## Table of Contents <!-- omit in toc -->
+
+- [Brief](#brief)
+- [Goal](#goal)
+- [User Experience UX](#user-experience-ux)
+  - [User stories](#user-stories)
+- [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Colours](#colours)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Features left to implement](#features-left-to-implement)
+- [Testing](#testing)
+  - [Validator testing](#validator-testing)
+  - [Performance](#performance)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Aknowledgments](#aknowledgments)
+
 ## Brief
 
-The goal of this project is to create a portfolio-style website showcasing the projects I have worked on as an architect. My main aim is to demonstrate my competence in HTML and CSS by developing a visually appealing and user-friendly static front-end application.
-
-It is important to note that this portfolio is not intended for professional use; rather, it serves as a showcase to highlight my skills and competence with CSS and HTML.
+This website showcases a collection of projects I have worked on, demonstrating my passion and expertise in the field of architecture. Explore the diverse range of designs and concepts that have shaped my career, from residential and commercial spaces to urban planning and beyond. Gain insights into my creative process, attention to detail, and commitment to delivering bespoke architectural solutions
 
 ## Goal
 
@@ -28,29 +49,39 @@ The primary goal of creating this website is to showcase my architecture portfol
 
 Overall, this website would serve as a dynamic platform to exhibit personal architectural achievements, establish a professional online presence, and foster connections within the industry.
 
-## User Experience (UX)
+It is important to note that this portfolio is not intended for professional use; rather, it serves as a showcase to highlight my skills and competence with CSS and HTML.
 
-### As a Target User, I want
+## User Experience UX
 
-- To easily find information about the architect's experience, qualifications, and relevant certifications to assess their expertise and credibility;
-- The website to showcase a diverse range of project types (residential, commercial, etc.) to gauge the architect's versatility and adaptability;
-- To highlight any collaborative efforts or notable partnerships the architect has engaged in, demonstrating their ability to work effectively with a team;
-- The website to provide a gallery or portfolio section showcasing high-quality images that highlight the architect's attention to detail and craftsmanship;
-- The website to offer a way to easily request additional information or schedule a meeting with the architect to discuss specific project needs.
+The three main features of the architecture portfolio website:
 
-### As a First-Time User, I want
+- **architecture**: a curated collection of projects, showcasing my architectural work, design concepts, and innovative solutions.
+- **info**: learn more about me as an architect through a dedicated page that provides a brief description of my background, qualifications, and experience. This page may also include a curated CV or additional information to provide insights into my expertise.
+- **contact**: connect with me easily through a dedicated contact section, allowing visitors to send messages, inquiries, or collaboration requests. This section enables direct communication and fosters opportunities for professional engagement.
 
-- To easily navigate the website to understand its purpose and content quickly;
-- To be able to view the site on wide range of devices;
-- To explore the projects in the architecture portfolio and view detailed information about each project;
-- To learn more about the architect by accessing their profile or bio section;
-- To have a clear understanding of how to contact the architect through the website's contact section;
-- The website to provide a visually appealing and intuitive interface that encourages further exploration.
+### User stories
 
-### As a Returning User, I want
+- #### As a Target User, I want
 
-- The website to provide regular updates on new projects or achievements by the architect.
-- To have a seamless experience when contacting the architect through the website, ensuring my message reaches them successfully.
+  - To easily find information about the architect's experience, qualifications, and relevant certifications to assess their expertise and credibility;
+  - The website to showcase a diverse range of project types (residential, commercial, etc.) to gauge the architect's versatility and adaptability;
+  - To highlight any collaborative efforts or notable partnerships the architect has engaged in, demonstrating their ability to work effectively with a team;
+  - The website to provide a gallery or portfolio section showcasing high-quality images that highlight the architect's attention to detail and craftsmanship;
+  - The website to offer a way to easily request additional information or schedule a meeting with the architect to discuss specific project needs.
+
+- #### As a First-Time User, I want
+
+  - To easily navigate the website to understand its purpose and content quickly;
+  - To be able to view the site on wide range of devices;
+  - To explore the projects in the architecture portfolio and view detailed information about each project;
+  - To learn more about the architect by accessing their profile or bio section;
+  - To have a clear understanding of how to contact the architect through the website's contact section;
+  - The website to provide a visually appealing and intuitive interface that encourages further exploration.
+
+- #### As a Returning User, I want
+
+  - The website to provide regular updates on new projects or achievements by the architect.
+  - To have a seamless experience when contacting the architect through the website, ensuring my message reaches them successfully.
 
 ## Design
 
@@ -68,17 +99,16 @@ In line with the principle mentioned above, I aimed to adhere to a minimalistic 
 
 ![Color palette](assets/images/readme-files/color-palette.jpg)
 
-## Typography
+### Typography
 
 In order to maintain a clean aesthetic, I opted to utilize a single font imported from [Google Fonts](https://fonts.google.com/): Raleway. This font choice complements the overall design by providing a clean and elegant typography style that enhances the readability and visual consistency of the website.
+
 was used to import Raleway used throughout the website
 
-## Imagery
+### Imagery
 
 As the central focus of the website, Dario's personal portfolio will prominently feature imagery. To optimize the loading times, many of the images, which are typically large files, will be compressed. By using a compression tool [compressjpeg.com](https://compressjpeg.com/), the images will be resized and optimized without compromising their quality.
-
 For the home page, I selected a visually pleasing image with neutral and clear colors to align with the minimalistic character of the entire website. The arrangement of the images will be thoughtfully organized to showcase a variety of projects effectively, allowing visitors to explore and appreciate Dario's diverse body of work.
-
 The images within the portfolio were created utilizing a diverse range of architectural and design software.
 
 ## Features
@@ -90,7 +120,7 @@ The images within the portfolio were created utilizing a diverse range of archit
   - The home page of the website follows a minimalistic design, featuring only a name and a hero image. Upon clicking the name, a smooth transition occurs where the navigation bar appears, and the hero image gracefully disappears. This transition creates a seamless user experience, allowing the navigation bar to show up.
   - Once the navigation bar is visible, a white canvas is revealed, providing a clean backdrop for the display of projects. By clicking on the _architecture_ option, the projects related to architecture will be showcased on this white canvas. This approach ensures a focused and uncluttered presentation, allowing visitors to explore your architectural projects without any distractions.
 
-![home age transition](assets/images/readme-files/homepage-transition.gif)
+    ![home age transition](assets/images/readme-files/homepage-transition.gif)
 
 - #### Navigation bar
 
@@ -141,25 +171,25 @@ The images within the portfolio were created utilizing a diverse range of archit
 
 Testing has been conducted on multiple browsers, including Chrome, Firefox, and Edge, ensuring that the website appears and functions as intended in each of them. Additionally, the responsive design has been tested using the developer tools option, ensuring that the website dynamically adjusts and adapts across various screen sizes. Furthermore, to guarantee a consistent user experience, the website has been tested on a mobile device.
 
-- ### Validator testing
+### Validator testing
 
-  Each page has been run through the W3C Markup validation service and CSS validation service **to be completed!!!**
+Each page has been run through the W3C Markup validation service and CSS validation service **to be completed!!!**
 
-- ### Performance
+### Performance
 
-  Google Lighthouse in Google's Chrome Developer Tools was used to test the performance of the website. All elements performed well.
+Google Lighthouse in Google's Chrome Developer Tools was used to test the performance of the website. All elements performed well.
 
-- ### Accessibility
+### Accessibility
 
-  Throughout the coding process of this website, great attention has been given to making it as accessible-friendly as possible. This has been achieved by implementing the following measures:
+Throughout the coding process of this website, great attention has been given to making it as accessible-friendly as possible. This has been achieved by implementing the following measures:
 
-  - Using semantic HTML: By utilizing semantic HTML elements, such as `<header>`, `<nav>`, `<main>`, and others, the structure and purpose of the content are accurately conveyed. This improves the website's accessibility for screen readers and assistive technologies.
+- Using semantic HTML: By utilizing semantic HTML elements, such as `<header>`, `<nav>`, `<main>`, and others, the structure and purpose of the content are accurately conveyed. This improves the website's accessibility for screen readers and assistive technologies.
 
-  - Providing alt attributes for every picture: By including descriptive alt attributes for all images on the website, users with visual impairments can understand the content and context of the images through screen readers or alternative text presentations.
+- Providing alt attributes for every picture: By including descriptive alt attributes for all images on the website, users with visual impairments can understand the content and context of the images through screen readers or alternative text presentations.
 
-  - Adding aria-label to anchor elements: The use of aria-label attributes for link and icons enhances accessibility by providing additional information or descriptions that are not explicitly conveyed through visual elements alone. This enables users who rely on assistive technologies to comprehend and navigate the website effectively.
+- Adding aria-label to anchor elements: The use of aria-label attributes for link and icons enhances accessibility by providing additional information or descriptions that are not explicitly conveyed through visual elements alone. This enables users who rely on assistive technologies to comprehend and navigate the website effectively.
 
-  By incorporating these practices, the website ensures that users with disabilities or impairments can access and engage with the content in an inclusive and meaningful way.
+By incorporating these practices, the website ensures that users with disabilities or impairments can access and engage with the content in an inclusive and meaningful way.
 
 ## Technologies Used
 
