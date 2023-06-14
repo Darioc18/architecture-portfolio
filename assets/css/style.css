@@ -406,6 +406,59 @@ a[id="back-button"]:hover {
     font-weight: 600;
 }
 
+/* Styling 404.html error page */
+
+/* .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    line-height: 50px;
+} */
+
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+
+.error-image {
+    width: 100px;
+    height: 100px;
+}
+
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.error-image {
+    position: relative;
+    top: 15px;
+}
+
+.error-message span {
+    font-size: 800%;
+}
+
+.error-text {
+    text-align: center;
+    line-height: 40px;
+}
+
+.error-text a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
 /* Keyframes */
 
 @keyframes fade-in {
