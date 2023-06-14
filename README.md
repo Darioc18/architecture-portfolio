@@ -163,6 +163,15 @@ The images within the portfolio were created utilizing a diverse range of archit
 
     ![contact page](assets/images/readme-files/contact-page.jpg)
 
+- #### Response page
+
+  - This page serves as a thank you message for reaching out and contacting me. Additionally, it invites the user to explore the latest updates on my projects in the architectural gallery.
+    ![thank you message](assets/images/readme-files/response-message.jpg)
+
+- #### 404 Page
+  - This page is specifically designed for instances when the user enters an incorrect address in the search bar. It provides an option to easily return to the architectural gallery.
+    ![404 Page](assets/images/readme-files/404error-message.jpg)
+
 ### Features left to implement
 
 - Expand the _architecture_ page: add more projects to showcase a wider range of the designer's work.
@@ -188,8 +197,8 @@ Each page has been run through the W3C Markup validation service and CSS validat
     - _p-house-gl_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-house-gl.html)
     - _p-rwanda-chapel_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-rwanda-chapel.html)
     - _p-scalo-farini_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-scalo-farini.html)
-    - *response* page [W3C validation]()
-    - *404* page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F404)
+    - _response_ page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fresponse.html%3Ffirst_name%3Dwerfe%26last_name%3Derfe%26email_address%3Derfe%2540erreg%26message%3Dregere)
+    - _404_ page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F404)
 - CSS
   - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
