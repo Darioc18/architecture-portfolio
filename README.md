@@ -102,9 +102,9 @@ In line with the principle mentioned above, I aimed to adhere to a minimalistic 
 
 ### Typography
 
-In order to maintain a clean aesthetic, I opted to utilize a single font imported from [Google Fonts](https://fonts.google.com/): Raleway. This font choice complements the overall design by providing a clean and elegant typography style that enhances the readability and visual consistency of the website.
+In order to maintain a clean aesthetic, I opted to utilize a single font imported from [Google Fonts](https://fonts.google.com/): [Raleway](https://fonts.google.com/specimen/Raleway). This font choice complements the overall design by providing a clean and elegant typography style that enhances the readability and visual consistency of the website.
 
-was used to import Raleway used throughout the website
+![font image](assets/images/readme-files/font.jpg)
 
 ### Imagery
 
@@ -178,6 +178,16 @@ Each page has been run through the W3C Markup validation service and CSS validat
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F)
+    - homepage [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F)
+    - _architecture_ page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Farchitecture.html)
+    - _contact_ page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fcontact.html)
+    - _info_ page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Finfo.html)
+    - _p-bari_ page [W3C validation](https://darioc18.github.io/architecture-portfolio/p-bari.html)
+    - _p-entrance-hall_ page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-entrance-hall.html)
+    - _p-house-av_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-house-av.html)
+    - _p-house-gl_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-house-gl.html)
+    - _p-rwanda-chapel_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-rwanda-chapel.html)
+    - _p-scalo-farini_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-scalo-farini.html)
 - CSS
   - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -214,20 +224,20 @@ By incorporating these practices, the website ensures that users with disabiliti
 ## Technologies Used
 
 - Languages
-  - HTML
-  - CSS
+  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - Frameworks and Porgrams
-  - Git
-  - Github
-  - Codeanywhere
-  - Google Dev Tools
-  - Google Lighthouse
-  - Google Fonts
-  - Font Awesome
-  - Balsamiq
-  - Am I Responsive?
-  - W3C Markup Validation Service
-  - W3C CSS Validation Service
+  - [Git](https://developer.mozilla.org/en-US/docs/Glossary/Git)
+  - [Github](https://github.com/)
+  - [Codeanywhere](https://dashboard.codeanywhere.com/)
+  - [Google Dev Tools](https://developer.chrome.com/docs/devtools/open/)
+  - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [Font Awesome](https://fontawesome.com/)
+  - [Balsamiq](https://balsamiq.com/wireframes/)
+  - [Am I Responsive?](https://ui.dev/amiresponsive)
+  - [W3C Markup Validation Service](https://validator.w3.org/)
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
 
@@ -254,4 +264,4 @@ The website was successfully deployed using GitHub. To deploy the website, I fol
 
 ## Aknowledgments
 
-I would like to express my gratitude to my Code Institute mentor, Aleksei Konovalov, for his guidance and clear advice throughout the project. His advice and encouragement have been instrumental in refining and improving the project, and I am extremely pleased with the final outcome.
+I would like to express my gratitude to my Code Institute mentor, [Aleksei Konovalov](https://github.com/lexach91), for his guidance and clear advice throughout the project. His advice and encouragement have been instrumental in refining and improving the project, and I am extremely pleased with the final outcome.
