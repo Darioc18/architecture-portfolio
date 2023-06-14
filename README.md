@@ -188,6 +188,8 @@ Each page has been run through the W3C Markup validation service and CSS validat
     - _p-house-gl_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-house-gl.html)
     - _p-rwanda-chapel_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-rwanda-chapel.html)
     - _p-scalo-farini_ page [W3C validation](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2Fp-scalo-farini.html)
+    - *response* page [W3C validation]()
+    - *404* page [W3C validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F404)
 - CSS
   - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarioc18.github.io%2Farchitecture-portfolio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
