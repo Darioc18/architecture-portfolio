@@ -38,11 +38,11 @@
 
 ## Brief
 
-This website showcases a collection of projects I have worked on, demonstrating my passion and expertise in the field of architecture. Explore the diverse range of designs and concepts that have shaped my career, from residential and commercial spaces to urban planning and beyond. Gain insights into my creative process, attention to detail, and commitment to delivering bespoke architectural solutions
+This website showcases a collection of projects I have worked on, demonstrating my passion and expertise in the field of architecture. It displays a diverse range of designs and concepts developed over the course of my career, from residential and commercial spaces to urban planning and beyond. It allows the user to gain insights into my creative process, attention to detail, and commitment to delivering bespoke architectural solutions.
 
 ## Goal
 
-The primary goal of creating this website is to showcase my architecture portfolio, featuring the projects I have worked on. By presenting my professional accomplishments and showcasing my design skills, I aim to:
+The primary goal of creating this website is to showcase my architecture portfolio, featuring the projects I have worked on. By promoting my professional accomplishments and presenting my design skills, I aim to:
 
 - Provide potential clients, employers, and collaborators with a comprehensive overview of my architectural expertise;
 - Include information about me, allowing visitors to gain insights into my background, qualifications, and design philosophy;
@@ -56,7 +56,7 @@ It is important to note that this portfolio is not intended for professional use
 
 The three main features of the architecture portfolio website:
 
-- **architecture**: a curated collection of projects, showcasing my architectural work, design concepts, and innovative solutions.
+- **architecture**: a curated collection of projects, containing my architectural work and design concepts.
 - **info**: learn more about me as an architect through a dedicated page that provides a brief description of my background, qualifications, and experience. This page may also include a curated CV or additional information to provide insights into my expertise.
 - **contact**: connect with me easily through a dedicated contact section, allowing visitors to send messages, inquiries, or collaboration requests. This section enables direct communication and fosters opportunities for professional engagement.
 
@@ -86,7 +86,7 @@ The three main features of the architecture portfolio website:
 
 ## Design
 
-In designing this website, my intention was to keep the colors and layout minimalistic. This approach allows the projects showcased in the portfolio to take center stage, each having its unique style and color palette. By adopting a simple design, the goal is to create a visual environment where the projects can truly stand out and captivate the viewer's attention.
+In designing this website, my intention was to keep neutral colors and a clean layout. This approach allows the projects showcased in the portfolio to take center stage, each having its unique style and color palette. By adopting a simple design, the goal is to create a visual environment where the projects can truly stand out and captivate the viewer's attention.
 
 ### Wireframes
 
@@ -96,13 +96,13 @@ Displayed below are a set of wireframes illustrating the various pages of the po
 
 ### Colours
 
-In line with the principle mentioned above, I aimed to adhere to a minimalistic color palette, consisting of black, white, and two distinct shades of grey. This deliberate choice allows for a clean and understated aesthetic, ensuring that the focus remains on the projects themselves while maintaining a cohesive and visually appealing design. I created a visual palette by using [coolors.co](https://coolors.co).
+In line with the principle mentioned above, I aimed to adhere to a minimalistic color palette, consisting of black, white, and two distinct shades of grey. This deliberate choice allows for a clean and discreet aesthetic, ensuring that the focus remains on the projects themselves while maintaining a cohesive and visually appealing design. I created a visual palette by using [coolors.co](https://coolors.co).
 
 ![Color palette](assets/images/readme-files/color-palette.jpg)
 
 ### Typography
 
-In order to maintain a clean aesthetic, I opted to utilize a single font imported from [Google Fonts](https://fonts.google.com/): [Raleway](https://fonts.google.com/specimen/Raleway). This font choice complements the overall design by providing a clean and elegant typography style that enhances the readability and visual consistency of the website.
+I opted to utilize a single font imported from [Google Fonts](https://fonts.google.com/): [Raleway](https://fonts.google.com/specimen/Raleway). This font choice complements the overall design by providing a clean and elegant typography style that enhances the readability and visual consistency of the website.
 
 ![font image](assets/images/readme-files/font.jpg)
 
@@ -118,20 +118,20 @@ The images within the portfolio were created utilizing a diverse range of archit
 
 - #### Home Page
 
-  - The home page of the website follows a minimalistic design, featuring only a name and a hero image. Upon clicking the name, a smooth transition occurs where the navigation bar appears, and the hero image gracefully disappears. This transition creates a seamless user experience, allowing the navigation bar to show up.
-  - Once the navigation bar is visible, a white canvas is revealed, providing a clean backdrop for the display of projects. By clicking on the _architecture_ option, the projects related to architecture will be showcased on this white canvas. This approach ensures a focused and uncluttered presentation, allowing visitors to explore your architectural projects without any distractions.
+  - The home page of the website follows a minimalistic design, featuring only a name and a hero image. Upon clicking the name, a smooth transition occurs where the navigation bar appears, and the hero image gracefully disappears. This transition creates a seamless user experience, allowing the navigation menu to show up.
+  - Once the navigation menu is visible, a white canvas is revealed, providing a clean backdrop for the display of projects. By clicking on the _architecture_ option, the projects related to architecture will be showcased on this white canvas. This approach ensures a focused and uncluttered presentation, allowing visitors to explore architectural projects without any distractions.
 
     ![home age transition](assets/images/readme-files/homepage-transition.gif)
 
-- #### Navigation bar
+- #### Navigation menu
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Gallery (_architecture_), _info_, _contact_, and _home_ page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation menu includes links to the Gallery (_architecture_), _info_, _contact_, and _home_ page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button;
-  - For screens larger than 920px, the navigation bar is designed to have no solid background. This intentional choice allows the images to scroll freely without being obstructed by a solid header.
+  - For screens larger than 920px, the navigation bar is designed to have a solid background. This allows the images to scroll freely without being obstructed by a solid header.
 
     ![navbar transparent background](assets/images/readme-files/navbar-transparent.gif)
 
-  - On screens smaller than 920px, a white background is applied to the navigation bar. This adjustment is made to prevent any clashes between the scrolling images and the navigation bar items. However, on the home page, the navigation bar is intentionally designed withn no solid background. This decision ensures that the hero image can span the entire screen size, creating a visually impactful impression and allowing the image to be fully visible even on smaller screens.
+  - On screens smaller than 920px, a white background is applied to the navigation menu accross the whole width of the screen. This adjustment is made to prevent any clashes between the scrolling images and the navigation menu items. However, on the home page, the navigation bar is intentionally designed with no solid background. This decision ensures that the hero image can span the entire screen size, creating a visually impactful impression and allowing the image to be fully visible even on smaller screens.
 
     ![navbar solid background](assets/images/readme-files/navbar-solid.gif)
 
@@ -158,8 +158,8 @@ The images within the portfolio were created utilizing a diverse range of archit
 
 - #### Contact Page
 
-  - The contact page provides users with the ability to easily get in touch with the artist for various purposes, such as project inquiries or sharing opinions about previous work.
-  - All fields in the contact form are set as required. This means that the form cannot be submitted unless all necessary information, including names, message and valid email addresses, are provided.
+  - The contact page provides users with the ability to easily get in touch with the architect for various purposes, such as project inquiries or sharing opinions about previous work.
+  - All fields in the contact form are set as required. This means that the form cannot be submitted unless all necessary information, including names, message and a valid email address, are provided.
 
     ![contact page](assets/images/readme-files/contact-page.jpg)
 
@@ -174,8 +174,8 @@ The images within the portfolio were created utilizing a diverse range of archit
 
 ### Features left to implement
 
-- Expand the _architecture_ page: add more projects to showcase a wider range of the designer's work.
-- Individual project pages with navigation arrows: implement the feature depicted in the [Wireframes](#wireframes), allowing users to navigate between individual project pages using arrows. These arrows should be placed in a way that allows users to easily move to the next or previous project. Additionally, consider including a small preview of the upcoming or previous project above the arrows, providing a glimpse of what's to come.
+- Expand the _architecture_ page: add more projects to showcase a wider range of the architect's work.
+- Individual project pages with navigation arrows: implement the feature depicted in the [Wireframes](#wireframes), allowing users to navigate between individual project pages using arrows. Additionally, consider including a small preview of the upcoming or previous project above the arrows, providing a glimpse of what's to come.
 
 ## Testing
 
@@ -210,7 +210,7 @@ Each page has been run through the W3C Markup validation service and CSS validat
 
 - By clicking on the text area, I noticed that the blinking text cursor was initially appearing in the middle of the textarea instead of at the beginning.
 
-  _To address this issue, I removed the space between the textarea tags. I discovered this solution by consulting [Stack Overflow](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)._
+  _To address this issue, I removed the space between the textarea tags. I found this solution by consulting [Stack Overflow](https://stackoverflow.com/questions/9070924/cursor-in-the-middle-of-a-textarea-box)._
 
 - The textarea in the contact form was causing layout issues due to its resizable feature.
 
