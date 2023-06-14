@@ -29,7 +29,7 @@
 - [Testing](#testing)
   - [Validator testing](#validator-testing)
   - [Bugs](#bugs)
-  - [Performance **to be completed!!!**](#performance-to-be-completed)
+  - [Performance](#performance)
   - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
@@ -205,9 +205,11 @@ Each page has been run through the W3C Markup validation service and CSS validat
 
   _To fix this problem, I implemented the CSS property "resize:none" to disable the textarea's resizing capability. This adjustment ensures that the textarea remains fixed in size and prevents any layout disturbances. I found this solution on [Stack Overflow](https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea)._
 
-### Performance **to be completed!!!**
+### Performance
 
 Google Lighthouse in Google's Chrome Developer Tools was used to test the performance of the website. All elements performed well.
+
+![Performance test using Lighthouse](assets/images/readme-files/performance-test.jpg)
 
 ### Accessibility
 
