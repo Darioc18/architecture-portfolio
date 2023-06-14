@@ -390,7 +390,23 @@ a[id="back-button"]:hover {
     opacity: 0.4;
 }
 
-/* keyframes */
+/* Styling response to submitting form  page: response.html */
+
+.response-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    line-height: 50px;
+}
+
+.response-text a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Keyframes */
 
 @keyframes fade-in {
     0% {
